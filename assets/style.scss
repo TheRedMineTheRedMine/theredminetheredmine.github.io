@@ -12,7 +12,15 @@ img {pointer-events: none}
 
 body {
     main {
-        .title {padding: 1em}
+        .title {
+            display: flex;
+            align-items: center;
+            padding: 1em;
+
+            img {
+                max-height: 100px;
+            }
+        }
 
         .cards {
             display: flex;
@@ -91,5 +99,15 @@ body {
                 }
             }
         }
+
+        .container {
+            padding: 0 2em;
+            p .link {color: #22e}
+        }
+    }
+
+    footer {
+        padding: 2em;
+        a {color: #22e}
     }
 }

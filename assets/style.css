@@ -15,7 +15,12 @@ img {
 }
 
 body main .title {
+  display: flex;
+  align-items: center;
   padding: 1em;
+}
+body main .title img {
+  max-height: 100px;
 }
 body main .cards {
   display: flex;
@@ -84,4 +89,16 @@ body main .cards .card .ftr::after {
 body main .cards .card:hover {
   box-shadow: 5px 10px rgba(221, 221, 221, 0.6666666667), 8px 13px 5px rgba(221, 221, 221, 0.9333333333);
   transform: translateY(-10px);
+}
+body main .container {
+  padding: 0 2em;
+}
+body main .container p .link {
+  color: #22e;
+}
+body footer {
+  padding: 2em;
+}
+body footer a {
+  color: #22e;
 }/*# sourceMappingURL=style.css.map */
